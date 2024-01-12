@@ -1,0 +1,11 @@
+.textbox{
+    width: 322px;
+    font-family: Roboto, Arial, sans-serif;
+
+}
+.author-name,.views{
+    line-height: 4px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size:small;
+    cursor: pointer;
+}

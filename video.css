@@ -1,0 +1,36 @@
+body{
+    padding-top: 40px;
+    padding-left: 50px;
+    border-color:rgb(0,0,0,0.1);
+    margin-left: 30px;
+}
+
+
+.mainbody{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-column-start: auto;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding-left: 10px;
+    padding-top: 50px;
+
+}
+.thumbnail{
+    width: 100%;
+    cursor: pointer;
+}
+
+.profile{
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.inbox{
+    display:grid;
+    flex: 1;
+    grid-template-columns:30px 1fr;
+    column-gap: 22px;
+    
+}
